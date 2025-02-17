@@ -55,7 +55,7 @@ p {
 /* List Styling */
 ul, ol {
     text-align: left;
-    max-width: 600px;
+    max-width: fit-content;
     margin: 20px auto;
     padding: 10px;
     background: #ffffff;
@@ -66,4 +66,13 @@ ul, ol {
 li {
     font-size: 1.1em;
     padding: 8px 0;
+}
+
+div ul li {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 15px;
 }
